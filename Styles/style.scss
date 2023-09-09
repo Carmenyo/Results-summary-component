@@ -135,6 +135,7 @@
       color: $White;
       font-size: $font-size-paragraphs;
       border: none;
+      cursor: pointer;
     }
     &--continue:hover {
       background-image: linear-gradient(
