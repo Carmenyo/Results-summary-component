@@ -7,9 +7,18 @@
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+}
 .card__results {
   height: 22.3rem;
   padding: 1.5rem;
@@ -113,10 +122,50 @@ body {
   text-align: center;
 }
 .card__button--continue {
-  width: 85%;
+  margin-top: 0.5rem;
+  width: 100%;
   height: 3.7rem;
   background-color: hsl(224, 30%, 27%);
   border-radius: 2rem;
   color: hsl(0, 0%, 100%);
   font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    margin-top: 8rem;
+  }
+  .card__results {
+    width: 23rem;
+    height: 32rem;
+    border-radius: 2rem;
+    padding-top: 2.5rem;
+  }
+  .card__results--span {
+    font-size: 1.5rem;
+  }
+  .card__summary {
+    width: 23rem;
+  }
+  .card__scoring {
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+  .card__scoring--number {
+    font-size: 4.5rem;
+  }
+  .card__explain {
+    padding-top: 1.8rem;
+  }
+  .card__explain--title {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .card__explain--paragraph {
+    padding: 0 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
