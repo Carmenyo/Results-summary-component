@@ -108,4 +108,15 @@ body {
   justify-content: space-between;
   border-radius: 1rem;
   align-items: center;
+}
+.card__button {
+  text-align: center;
+}
+.card__button--continue {
+  width: 85%;
+  height: 3.7rem;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

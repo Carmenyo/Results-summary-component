@@ -56,15 +56,15 @@
     padding: 1.5rem 2rem;
     font-size: 0.75rem;
 
-    &--title{
+    &--title {
       margin-bottom: 1.4rem;
     }
 
     &--items {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    gap: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      gap: 1.2rem;
     }
 
     &--item {
@@ -76,13 +76,13 @@
       color: $Dark-gray-blue;
       margin-right: 1rem;
     }
-    &--points{
+    &--points {
       font-weight: bolder;
       padding-top: 1rem;
     }
-    &--image{
-      margin-right: .8rem;
-      margin-left: .8rem;
+    &--image {
+      margin-right: 0.8rem;
+      margin-left: 0.8rem;
     }
 
     &--reaction {
@@ -92,8 +92,6 @@
       justify-content: space-between;
       border-radius: 1rem;
       align-items: center;
-      
-      
     }
 
     &--memory {
@@ -120,6 +118,19 @@
       justify-content: space-between;
       border-radius: 1rem;
       align-items: center;
+    }
+  }
+
+  &__button {
+    text-align: center;
+
+    &--continue{
+      width: 85%;
+      height: 3.7rem;
+      background-color:  $Dark-gray-blue;
+      border-radius: 2rem;
+      color: $White ;
+      font-size: $font-size-paragraphs;
     }
   }
 }
