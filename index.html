@@ -7,12 +7,17 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/emoji.jpg">
 
+  <link rel="stylesheet" href="./Styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
 
 <body>
-
 
   <main>
 
@@ -20,66 +25,89 @@
 
       <section class="card__results">
 
-        <span>
+        <span class="card__results--span">
           Your Result
         </span>
 
         <div class="card__scoring">
-          <small>76</small>
-          <span>of 100</span>
+
+          <small class="card__scoring--number">76</small>
+          <span class="card__scoring--hundred">of 100</span>
+
         </div>
 
         <div class="card__explain">
+
           <h1 class="card__explain--title"> Great</h1>
+
           <p class="card__explain--paragraph"> You scored higher than 65% of the people who have taken these tests.</p>
+
         </div>
+
       </section>
 
       <section class="card__summary">
-        <h2>Summary</h2>
+        <h2 class="card__summary--title">Summary</h2>
 
-        <div class="card__summary--reaction">
-          <img src="./assets/images/icon-reaction.svg" alt="reaction">
 
-          Reaction
-          80 / 100
+        <div class="card__summary--items">
 
+          <div class="card__summary--reaction">
+
+            <div class="card__summary--item">
+              <img class="card__summary--image" src="./assets/images/icon-reaction.svg" alt="reaction">
+              <span>Reaction</span>
+            </div>
+
+            <span class="card__summary--data">
+              <span class="card__summary--points">80</span> 
+              / 100</span>
+          </div>
+
+          <div class="card__summary--memory">
+            <div class="card__summary--item">
+
+
+              <img class="card__summary--image" src="./assets/images/icon-memory.svg" alt="">
+              <span>Memory</span>
+
+            </div>
+            <span class="card__summary--data">
+              <span class="card__summary--points">92</span>
+              / 100</span>
+          </div>
+
+          <div class="card__summary--verbal">
+            <div class="card__summary--item">
+              <img class="card__summary--image" src="./assets/images/icon-verbal.svg" alt="">
+              <span> Verbal</span>
+            </div>
+            <span class="card__summary--data">
+              <span class="card__summary--points">61</span>
+              / 100</span>
+
+          </div>
+
+          <div class="card__summary--visual">
+            <div class="card__summary--item">
+              <img class="card__summary--image" src="./assets/images/icon-visual.svg" alt="">
+              <span> Visual</span>
+            </div>
+            <span class="card__summary--data">
+              <span class="card__summary--points">72</span>
+              / 100</span>
+
+
+
+          </div>
         </div>
-
-        <div>
-          Memory
-          92 / 100
-        </div>
-
-        <div>
-
-          Verbal
-          61 / 100
-        </div>
-
-        <div>
-          Visual
-          72 / 100
-        </div>
-
-
       </section>
 
-
-
-
-
-
-
-      Continue
-
+      <button class="card__button">Continue </button>
 
     </div>
 
-
   </main>
-
-
 
 </body>
 

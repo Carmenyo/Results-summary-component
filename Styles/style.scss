@@ -1,0 +1,125 @@
+@import "variables";
+@import "globals";
+
+.card {
+  &__results {
+    height: 22.3rem;
+    padding: 1.5rem;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    color: $White;
+
+    &--span {
+      font-size: $font-size-paragraphs;
+      color: $Pale-blue;
+    }
+  }
+  &__scoring {
+    margin-top: 1.6rem;
+    margin-left: 6.4rem;
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      hsla(241, 72%, 46%, 0),
+      hsla(256, 72%, 46%, 1)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &--number {
+      font-size: 3.5rem;
+    }
+    &--hundred {
+      color: $Light-lavender;
+    }
+  }
+
+  &__explain {
+    padding: 1.6rem 1rem;
+
+    &--paragraph {
+      margin-top: 0.5rem;
+      color: $Pale-blue;
+    }
+  }
+
+  &__summary {
+    padding: 1.5rem 2rem;
+    font-size: 0.75rem;
+
+    &--title{
+      margin-bottom: 1.4rem;
+    }
+
+    &--items {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 1.2rem;
+    }
+
+    &--item {
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    &--data {
+      color: $Dark-gray-blue;
+      margin-right: 1rem;
+    }
+    &--points{
+      font-weight: bolder;
+      padding-top: 1rem;
+    }
+    &--image{
+      margin-right: .8rem;
+      margin-left: .8rem;
+    }
+
+    &--reaction {
+      color: $Light-Red;
+      background-color: hsla(0, 100%, 67%, 0.1);
+      display: flex;
+      justify-content: space-between;
+      border-radius: 1rem;
+      align-items: center;
+      
+      
+    }
+
+    &--memory {
+      color: $Orange-yellow;
+      background-color: hsla(39, 100%, 56%, 0.1);
+      display: flex;
+      justify-content: space-between;
+      border-radius: 1rem;
+      align-items: center;
+    }
+
+    &--verbal {
+      color: $Green-teal;
+      background-color: hsla(166, 100%, 37%, 0.1);
+      display: flex;
+      justify-content: space-between;
+      border-radius: 1rem;
+      align-items: center;
+    }
+    &--visual {
+      color: $Cobalt-blue;
+      background-color: hsl(234, 85%, 45%, 0.1);
+      display: flex;
+      justify-content: space-between;
+      border-radius: 1rem;
+      align-items: center;
+    }
+  }
+}
