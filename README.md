@@ -2,20 +2,23 @@
 
 This project is based on the Frontend Mentor challenge called the "Perfect Pixel Challenge." The primary goal of this challenge was to replicate a design provided by Frontend Mentor with precision, ensuring that every pixel matched the original design.
 
-![Preview of the Perfect Pixel Challenge design](./assets/images/Frontend-Mentor-Results-summary-component%20(1).png)
+![Preview of the Perfect Pixel Challenge design](./assets/images/Frontend-Mentor-Results-summary-component-mobile.png)
 
-![Preview of the Perfect Pixel Challenge design](./assets/images/Frontend-Mentor-Results-summary-component%20.png)
+![Preview of the Perfect Pixel Challenge design](./assets/images/Frontend-Mentor-Results-summary-component-desktop.png)
 
 ## Features
 
 - Precise replication of the original design, achieving a "Perfect Pixel" result.
+- Mobile FIRST
 - Use of HTML5 for content structure and markup.
 - Use of SASS (Syntactically Awesome Stylesheets) for writing CSS styles more efficiently and modularly.
 
 ## Technologies Used 🛠️
 
-- ![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) HTML5: Markup language for web page structure.
-- ![SASS](https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg) SASS: CSS preprocessor for better style organization and reuse.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> Sass: CSS extension language with additional features.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> HTML5: Markup language for structuring the web page.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> CSS3: Styling language for design and presentation.
+
 
 ## Usage and Viewing
 
