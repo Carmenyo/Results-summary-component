@@ -134,9 +134,16 @@
       border-radius: 2rem;
       color: $White;
       font-size: $font-size-paragraphs;
+      border: none;
+    }
+    &--continue:hover {
+      background-image: linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+      );
     }
   }
-
   @media screen and (min-width: 768px) {
     flex-direction: row;
     margin-top: 8rem;
@@ -154,9 +161,22 @@
 
     &__summary {
       width: 23rem;
+
+      &--title {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+      }
+
+      &--items {
+        margin-top: 1.9rem;
+        margin-left: 0.8rem;
+      }
+      &--data {
+        font-size: 1.2rem;
+        margin-right: 1.5rem;
+      }
     }
-
-
     &__scoring {
       width: 12rem;
       height: 12rem;
@@ -167,18 +187,23 @@
         font-size: 4.5rem;
       }
     }
-
     &__explain {
-
       padding-top: 1.8rem;
-      &--title{
+      &--title {
         font-size: 2rem;
-        margin-bottom: .8rem;
+        margin-bottom: 0.8rem;
       }
-      &--paragraph{
-        padding: 0 1.5rem ;
-       font-size: 1.1rem;
-        line-height: 1.7rem;
+      &--paragraph {
+        padding: 0 1.5rem;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+      }
+    }
+    &__button {
+      margin-top: 0.5rem;
+
+      &--continue:hover {
+        background-color: hsl(256, 72%, 46%, 1);
       }
     }
   }

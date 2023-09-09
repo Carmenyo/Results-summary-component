@@ -9,6 +9,9 @@ body{
     width: 100vw;
     font-family: $font-family;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    @media screen and (min-width: 768px){
+        align-items: center;
+        justify-content: center;
+    }
 }

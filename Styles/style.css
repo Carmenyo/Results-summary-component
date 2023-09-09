@@ -1,5 +1,3 @@
-/* FONTS */
-/* COLORS */
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +9,12 @@ body {
   width: 100vw;
   font-family: "Hanken Grotesk", sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  body {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .card {
@@ -129,6 +131,10 @@ body {
   border-radius: 2rem;
   color: hsl(0, 0%, 100%);
   font-size: 18px;
+  border: none;
+}
+.card__button--continue:hover {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 @media screen and (min-width: 768px) {
   .card {
@@ -146,6 +152,19 @@ body {
   }
   .card__summary {
     width: 23rem;
+  }
+  .card__summary--title {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .card__summary--items {
+    margin-top: 1.9rem;
+    margin-left: 0.8rem;
+  }
+  .card__summary--data {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
   }
   .card__scoring {
     width: 12rem;
@@ -166,6 +185,12 @@ body {
   .card__explain--paragraph {
     padding: 0 1.5rem;
     font-size: 1.1rem;
-    line-height: 1.7rem;
+    line-height: 1.6rem;
+  }
+  .card__button {
+    margin-top: 0.5rem;
+  }
+  .card__button--continue:hover {
+    background-color: hsl(256, 72%, 46%);
   }
 }/*# sourceMappingURL=style.css.map */
