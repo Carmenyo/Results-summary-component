@@ -141,7 +141,7 @@ body {
 @media screen and (min-width: 768px) {
   .card {
     flex-direction: row;
-    margin-top: 8rem;
+    margin-top: 17.5rem;
   }
   .card__results {
     width: 23rem;
