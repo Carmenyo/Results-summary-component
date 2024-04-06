@@ -22,7 +22,6 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  margin-top: 7rem;
 }
 .card__results {
   height: 22.3rem;
