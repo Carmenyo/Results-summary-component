@@ -2,8 +2,11 @@
 @import "globals";
 
 .card {
+
   display: flex;
   flex-direction: column;
+  margin-top: 7rem;
+
   &__results {
     height: 22.3rem;
     padding: 1.5rem;
